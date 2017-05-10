@@ -46,8 +46,10 @@ public class Main {
         new SimpleThread().start();
         new SimpleThread().start();
         new SimpleThread().start();
+        new SimpleThread().start();
         
         System.out.println("dddd");
+        System.out.println("cccc");
 
     }
 }
