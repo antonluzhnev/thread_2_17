@@ -47,5 +47,6 @@ public class Main {
         new SimpleThread().start();
         new SimpleThread().start();
 
+        System.out.println("Hello new NEWWWW");
     }
 }
