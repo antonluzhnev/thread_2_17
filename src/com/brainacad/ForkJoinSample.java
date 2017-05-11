@@ -20,7 +20,7 @@ public class ForkJoinSample {
 
     }
 
-    /*static class Calc extends RecursiveAction {// должны переопределите метод compute  разбивает задачи на подзадачи
+    static class Calc extends RecursiveAction {// должны переопределите метод compute  разбивает задачи на подзадачи
 
         private final int start;
         private final int end;
@@ -59,7 +59,7 @@ public class ForkJoinSample {
                 invokeAll(calc1, calc2);// ждем пока выполнтся задача
             }
         }
-    }*/
+    }
 
     static class CalcSum extends RecursiveTask<Double> {
 
